@@ -161,7 +161,7 @@ String pageHeading = driver.findElement(By.xpath("//div[@id='mainContent']/h1[@c
         Assert.assertEquals(verifyLogInButton,"LOG IN", "No login Button, so you need to log out");
 
         System.out.println("You are logged out");
-        System.out.println("Project is done2");
+
     }
 
 }
